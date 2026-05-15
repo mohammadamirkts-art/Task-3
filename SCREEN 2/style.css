@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+   
+    width: 99.4%;
+    height: 900px;
+    margin-left: 6px;
+    margin-top: 8px;
+    background-color: #8f2b2b;
+    clip-path: polygon( 0 0,100% 0,100% 80%,88% 100%,0 100%);
+}
+.Content-main{
+    display: flex;
+    flex-direction: column;
+    width: 80%; 
+    row-gap: 16px;
+    padding-top: 5%;
+}
+.logo-main{
+ 
+    width: 200px;
+    height: 100px;
+    
+}
+.logo-img{
+    
+    width: 200px;
+    height: 200px;
+}
+.left-content{
+    margin-top:100px ;
+    width: 90%;
+    
+}
+h1{
+    font-size: 6.4rem;
+    font-weight: 900;
+     font-family: "Roboto", sans-serif;
+     color: white;
+}
+h2{
+    font-size: 3.17rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    margin-top: -16px;
+}
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    font-family:"Poppins", sans-serif;
+    margin-top:40px;
+    font-size: 21px;
+    color: white;
+    
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 42px;
+    margin-top: 100px;
+    height: 400px;
+    
+}
+.sec-title{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    margin-left: 8%;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+.sec-title h3{
+    font-size: 4.1rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+
+}
+.card-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 26px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 18px;
+    width: 200px;
+    height: 200px;
+
+}
+.icon{
+    width: 120px;
+    height: 120px;
+}
+h4{
+    
+    font-size: 24.2px;
+    color: #8f2b2b;
+    font-family: "Poppins",sans-serif;
+}
+.pp{
+    font-size: 22px;
+    text-align: center;
+    font-family: "Poppins",sans-serif;
+    font-weight: 800;
+}
+
+footer{
+    margin-top: 80px;
+    height: 440px;
+    background-color: #8f2b2b;
+    clip-path: polygon( 0 0,100% 0,100% 70%,90% 100%,0 100%)
+}
+.FTH1{
+    font-size: 3.7rem;
+    margin-left: 10%;
+    padding-top: 10%;
+    font-family: "Poppins",sans-serif;
+    line-height: 1.2;
+}
