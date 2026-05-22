@@ -1,131 +1,118 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-.section1{
+.head{
+    background-color: #8B1A1A ;
+    clip-path: polygon(
+    0% 0%,   
+    100% 0%, 
+    100% 90%,
+    92% 100%,
+    0% 100%  
+  );
+  margin-left: 5px;
+}
+.main{ 
     display: flex;
+    flex-direction: column;
     justify-content: center;
-   
-    width: 99.4%;
-    height: 900px;
-    margin-left: 6px;
-    margin-top: 8px;
-    background-color: #8f2b2b;
-    clip-path: polygon( 0 0,100% 0,100% 80%,88% 100%,0 100%);
+    align-items: start;
+    max-width: 85vw;
+    height: fit-content;
+    margin: auto;
+    gap: 50px;
+    padding: 50px 0 150px 0 ;
 }
-.Content-main{
-    display: flex;
-    flex-direction: column;
-    width: 80%; 
-    row-gap: 16px;
-    padding-top: 5%;
-}
-.logo-main{
- 
-    width: 200px;
-    height: 100px;
-    
-}
-.logo-img{
-    
-    width: 200px;
-    height: 200px;
-}
-.left-content{
-    margin-top:100px ;
-    width: 90%;
-    
-}
-h1{
-    font-size: 6.4rem;
-    font-weight: 900;
-     font-family: "Roboto", sans-serif;
-     color: white;
-}
-h2{
-    font-size: 3.17rem;
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    margin-top: -16px;
-}
-.paragraph{
-    display: flex;
-    flex-direction: column;
-    row-gap: 24px;
-    font-family:"Poppins", sans-serif;
-    margin-top:40px;
-    font-size: 21px;
+
+.text h1{
     color: white;
-    
+      font-family: 'Bebas Neue', sans-serif;
+font-weight: 900;
+letter-spacing: 2px;
+font-size: 95px;
+}
+.text h3{
+    color: black;
+     font-family: 'Montserrat', sans-serif;
+font-weight: 900;
+font-size: 48px;
 }
 
-.section2{
+.para{ 
+width: 1100px;
+gap: 50px;
     display: flex;
     flex-direction: column;
-    row-gap: 42px;
-    margin-top: 100px;
-    height: 400px;
-    
+    color: white;
+         font-family: 'Montserrat', sans-serif;
+font-size: 29px;
 }
-.sec-title{
-    display: flex;
-    align-items: center;
-    column-gap: 8px;
-    margin-left: 8%;
+.mid{
+display: flex;
+align-items: start;
+justify-content: center;
+max-width: 90vw;
+margin: 100px auto;
 }
-img{
-    width: 50px;
-    height: 50px;
-}
-.sec-title h3{
-    font-size: 4.1rem;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 900;
 
-}
-.card-main{
-    width: 100%;
+.cardmain{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 26px;
+    flex-direction: row;
+    padding-top: 20px;
 }
+.bestclubs{
+font-family: 'Montserrat', sans-serif;
+display: flex;
+justify-content: start;
+align-items: center;
+gap: 10px;
+}
+
+.bestclubs h1{
+    font-size: 65px;
+    font-weight: 900;
+}
+
+.lorem{
+    font-size: 20px;
+ font-family: 'Montserrat', sans-serif; ;
+}
+#lorem{
+    margin-left: 25px;
+} 
 .card{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    row-gap: 18px;
-    width: 200px;
-    height: 200px;
-
-}
-.icon{
-    width: 120px;
-    height: 120px;
-}
-h4{
-    
-    font-size: 24.2px;
-    color: #8f2b2b;
-    font-family: "Poppins",sans-serif;
-}
-.pp{
-    font-size: 22px;
-    text-align: center;
-    font-family: "Poppins",sans-serif;
-    font-weight: 800;
 }
 
-footer{
-    margin-top: 80px;
-    height: 440px;
-    background-color: #8f2b2b;
-    clip-path: polygon( 0 0,100% 0,100% 70%,90% 100%,0 100%)
+.end{
+background-color: #8B1A1A;
+clip-path: polygon(
+    0% 0%,   
+    100% 0%, 
+    100% 70%,
+    95% 100%,
+    0% 100%  
+  );
+  margin-left: 5px;
 }
-.FTH1{
-    font-size: 3.7rem;
-    margin-left: 10%;
-    padding-top: 10%;
-    font-family: "Poppins",sans-serif;
-    line-height: 1.2;
+.footer{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: start;
+padding: 80px 50px;
+
+}
+.footer strong{
+    margin-left: 32px;
+font-family: 'popines', sans-serif;
+font-weight: 900;
+color: white;
+font-size: 53px;
 }
